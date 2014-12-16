@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html ng-app="default">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="js/angular.min.js"></script>
+<script src="js/market.js"></script>
+<script src="js/angular-route.js"></script>
+<script src="js/html5.shiv.js"> </script>
+<link rel="stylesheet" href="sass/market.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="main" ng-controller="ctrl1">
+		<header>
+			<div ><img src="img/logo.png" class="logo"></div>
+			<input type="text" placeholder="Search" class="search">
+			<img src="img/cart.jpg"  class="cart">
+			<nav class="nav1">
+				<ul class="nav nav-pills" >
+					<li><a href="#"><strong>Home</strong></a></li>
+						<li><a href="#"><strong> Men</strong></a></li>
+						<li><a href="#"><strong>Women</strong></a></li>
+							<li><a href="#"><strong>Sales</strong></a></li>
+							<li><a href="#"><strong>Clearance</strong></a></li>
+							
+					
+				
+				</ul>
+			
+			</nav>
+			<div class='carsol'>
+				Carsol
+			
+			</div>
+			
+			
+			<nav class= "nav2">
+			
+			<ul class="nav nav-pills nav-stacked">
+			<li ng-click="shoes()" ><a href="#"><strong>Shoes</strong></a>
+				<ul ng-hide="shoes1">
+				<li><strong>Running</strong></li>
+				<li><strong>Sneakers</strong></li>
+				<li><strong>Joggers</strong></li>
+				</ul>
+			</li>
+			<li><a href="#"> <strong>Clothing </strong></a></li>
+			<li><a href="#"><strong> Accessorie</strong> </a></li>
+			<li><a href="#"><strong>Sales</strong></a></li>
+			<li><a href="#"><strong>Clearance</strong></a></li>
+			
+			</ul>
+			
+			</nav>
+	
+		</header>
+			<section>
+			
+			
+			
+			</section>
+				<footer>
+				
+				
+				
+				</footer>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+		<div ng-view></div>
+</body>
+</html>
